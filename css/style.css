@@ -51,11 +51,13 @@ p {
 .nav-section {
     background-color: #262626;
 }
-.nav-btn a{
+
+.nav-btn a {
     color: white;
     font-size: 0.83rem;
     letter-spacing: 1px;
 }
+
 .nav-btn button {
     background: linear-gradient(187.79deg, #fe139c 0%, #c71cb8 100%) !important;
     padding: 5px 10px !important;
@@ -73,10 +75,11 @@ p {
 
 .hero-img-btn {
     position: absolute;
-    top: 315px;
+    bottom: 182px;
 }
 
 .hero-img-btn button {
+    
     outline: none;
     border: none;
     background: linear-gradient(-90deg, #1bee02, #00ad45);
@@ -128,7 +131,7 @@ p {
     object-fit: cover;
 }
 
-.divider-img{
+.divider-img {
     background-color: #262626;
 }
 
@@ -163,86 +166,104 @@ p {
 .card-matter h2 {
     color: goldenrod;
 }
-.card-matter p{
+
+.card-matter p {
     color: gray;
     text-align: justify;
 }
-.matter-detail img{
+
+.matter-detail img {
     width: 76px;
     height: 76px;
 }
-.massenger-icon{
+
+.massenger-icon {
     width: 32px !important;
     height: 32px !important;
 }
+
 .gold-content {
     background-color: #292929;
     margin-top: -4px;
     padding-top: 20px;
 }
 
-.gold-divider img{
+.gold-divider img {
     width: 100%;
 }
-.gold-coin-left p{
+
+.gold-coin-left p {
     font-size: 20px;
     text-align: justify;
     padding-top: 50px;
 }
-.gold-coin-left h1{
+
+.gold-coin-left h1 {
     color: rgb(245, 124, 0);
 }
-.gold-coin-left{
+
+.gold-coin-left {
     padding-top: 120px;
 }
-.purchase-benefit-section span{
+
+.purchase-benefit-section span {
     color: #fe139c;
 }
-.purchase-benefit-content{
+
+.purchase-benefit-content {
     background-color: #292929;
     border-radius: 30px;
     width: 86%;
 }
-.benefit-card-1 img{
+
+.benefit-card-1 img {
     width: 64px;
     height: 64px;
 }
-.benefit-card-1{
+
+.benefit-card-1 {
     margin: 0px 22px;
 }
-.benefit-divider{
+
+.benefit-divider {
     border-right: 1px solid white;
-    
+
 }
-.footer-section{
+
+.footer-section {
     background-color: #292929;
 
 }
-.sign-up-form{
+
+.sign-up-form {
     width: 30rem;
     background-color: #292929;
     padding: 38px 28px;
     border-radius: 10px;
 
 }
-.fb-btn{
+
+.fb-btn {
     background: #4c69ba !important;
     border-radius: 10px;
     height: 48px;
 }
-.g-btn{
+
+.g-btn {
     background: #3e82f7 !important;
     margin: 15px 0px;
     border-radius: 10px;
     height: 48px;
 }
-.apple-btn{
+
+.apple-btn {
     background-color: white;
-  margin-bottom: 15px;
+    margin-bottom: 15px;
     border-radius: 10px;
     height: 48px;
 }
-.form-divider::before{
+
+.form-divider::before {
     content: "";
     position: absolute;
     width: 87px;
@@ -251,16 +272,18 @@ p {
     top: 13px;
     left: 95px;
 }
-.form-divider::after{
+
+.form-divider::after {
     content: "";
     position: absolute;
     width: 87px;
     height: 2px;
     background-color: white;
     top: 13px;
-  right: 95px;
+    right: 95px;
 }
-.sign-up-form input{
+
+.sign-up-form input {
     border-radius: 10px;
     height: 48px;
     outline: none;
@@ -268,33 +291,40 @@ p {
     border: 1px solid white;
     background-color: #292929;
 }
-.signup-btn{
+
+.signup-btn {
     outline: none;
     border: none;
     background: linear-gradient(187.79deg, #fe139c 0%, #c71cb8 100%) !important;
     width: 264px;
     height: 48px;
 }
+
 .game1-section {
     background-color: #292929;
-    
+
 }
-.game1-left img{
+
+.game1-left img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.game1-right p{
+
+.game1-right p {
     text-align: justify;
 }
-.terms-and-condition-section{
+
+.terms-and-condition-section {
     background-color: #292929;
     width: 90%;
     border-radius: 10px;
 }
-.terms-and-condition-section p{
+
+.terms-and-condition-section p {
     text-align: justify;
 }
+
 @media only screen and (max-width: 1440px) {
 
     .dog-1,
@@ -307,18 +337,53 @@ p {
 
     .purchase-benefit-content {
         flex-direction: column;
-       
+
     }
-    .benefit-card-1{
+
+    .benefit-card-1 {
         padding-top: 0 !important;
     }
-    .benefit-divider{
+
+    .benefit-divider {
         display: none;
     }
+
+    .hero-section h1 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .text-section p {
+        font-size: 15px !important;
+        max-width: 75%;
+        margin: auto;
+    }
+
+    .hero-section h2 {
+        font-size: 20px;
+
+    }
+    .gold-coin-left {
+      
+        padding-left: 30px;
+        padding-right: 30px;
 }
+
 @media only screen and (max-width: 560px) {
 
-    .footer-section a{
-      margin-right: 10px !important;
+    .footer-section a {
+        margin-right: 10px !important;
     }
+
+    .hero-img-btn {
+        width: 100%;
+        background: linear-gradient(-90deg, #1bee02, #00ad45);
+        text-align: center;
+        bottom: 56px;
+    }
+    .main-top h1{
+        font-size: 23px;
+    }
+ 
+
 }
