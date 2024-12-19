@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #121212 !important;
+    font-family: "Roboto", sans-serif !important;
+
+    width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero-section h1 {
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 91px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.header-img {
+    width: 100%;
+    max-width: 48rem;
+}
+
+.hero-section p {
+    font-weight: bold;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.hero-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#logo img {
+    width: 6rem;
+}
+
+.nav-section {
+    background-color: #262626;
+}
+.nav-btn a{
+    color: white;
+    font-size: 0.83rem;
+    letter-spacing: 1px;
+}
+.nav-btn button {
+    background: linear-gradient(187.79deg, #fe139c 0%, #c71cb8 100%) !important;
+    padding: 5px 10px !important;
+    margin-left: 13px;
+    font-size: 13px;
+}
+
+.hero-section a {
+    color: #b51b85;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.hero-img-btn {
+    position: absolute;
+    top: 315px;
+}
+
+.hero-img-btn button {
+    outline: none;
+    border: none;
+    background: linear-gradient(-90deg, #1bee02, #00ad45);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 15px 45px;
+}
+
+.main-top {
+    background-color: #262626;
+}
+
+.main-top h1 {
+    font-size: 47px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.87);
+    letter-spacing: 1.25px;
+    padding: 30px 0;
+}
+
+.main-top h1 span,
+.matters-section span {
+    color: rgba(254, 19, 156);
+}
+
+.game-text p {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.87);
+
+}
+
+.dog-2 {
+    width: 20%;
+    margin-top: -85px;
+}
+
+.dog-1 {
+    width: 25%;
+    margin-top: -85px;
+}
+
+.dog-1 img,
+.dog-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.divider-img{
+    background-color: #262626;
+}
+
+.about-section {
+    background-color: #262626;
+    width: 100%;
+}
+
+.about-section h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.about-section img {
+    margin: 41px auto;
+}
+
+.matters-section h1,
+.gold-coin-left h2,
+.purchase-benefit-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.card-matter {
+    border: 3px solid #fe139c;
+    border-radius: 20px;
+    background-color: #262626;
+
+}
+
+.card-matter h2 {
+    color: goldenrod;
+}
+.card-matter p{
+    color: gray;
+    text-align: justify;
+}
+.matter-detail img{
+    width: 76px;
+    height: 76px;
+}
+.massenger-icon{
+    width: 32px !important;
+    height: 32px !important;
+}
+.gold-content {
+    background-color: #292929;
+    margin-top: -4px;
+    padding-top: 20px;
+}
+
+.gold-divider img{
+    width: 100%;
+}
+.gold-coin-left p{
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 50px;
+}
+.gold-coin-left h1{
+    color: rgb(245, 124, 0);
+}
+.gold-coin-left{
+    padding-top: 120px;
+}
+.purchase-benefit-section span{
+    color: #fe139c;
+}
+.purchase-benefit-content{
+    background-color: #292929;
+    border-radius: 30px;
+    width: 86%;
+}
+.benefit-card-1 img{
+    width: 64px;
+    height: 64px;
+}
+.benefit-card-1{
+    margin: 0px 22px;
+}
+.benefit-divider{
+    border-right: 1px solid white;
+    
+}
+.footer-section{
+    background-color: #292929;
+
+}
+.sign-up-form{
+    width: 30rem;
+    background-color: #292929;
+    padding: 38px 28px;
+    border-radius: 10px;
+
+}
+.fb-btn{
+    background: #4c69ba !important;
+    border-radius: 10px;
+    height: 48px;
+}
+.g-btn{
+    background: #3e82f7 !important;
+    margin: 15px 0px;
+    border-radius: 10px;
+    height: 48px;
+}
+.apple-btn{
+    background-color: white;
+  margin-bottom: 15px;
+    border-radius: 10px;
+    height: 48px;
+}
+.form-divider::before{
+    content: "";
+    position: absolute;
+    width: 87px;
+    height: 2px;
+    background-color: white;
+    top: 13px;
+    left: 95px;
+}
+.form-divider::after{
+    content: "";
+    position: absolute;
+    width: 87px;
+    height: 2px;
+    background-color: white;
+    top: 13px;
+  right: 95px;
+}
+.sign-up-form input{
+    border-radius: 10px;
+    height: 48px;
+    outline: none;
+    border: none;
+    border: 1px solid white;
+    background-color: #292929;
+}
+.signup-btn{
+    outline: none;
+    border: none;
+    background: linear-gradient(187.79deg, #fe139c 0%, #c71cb8 100%) !important;
+    width: 264px;
+    height: 48px;
+}
+.game1-section {
+    background-color: #292929;
+    
+}
+.game1-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.game1-right p{
+    text-align: justify;
+}
+.terms-and-condition-section{
+    background-color: #292929;
+    width: 90%;
+    border-radius: 10px;
+}
+.terms-and-condition-section p{
+    text-align: justify;
+}
+@media only screen and (max-width: 1440px) {
+
+    .dog-1,
+    .dog-2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    .purchase-benefit-content {
+        flex-direction: column;
+       
+    }
+    .benefit-card-1{
+        padding-top: 0 !important;
+    }
+    .benefit-divider{
+        display: none;
+    }
+}
+@media only screen and (max-width: 560px) {
+
+    .footer-section a{
+      margin-right: 10px !important;
+    }
+}
